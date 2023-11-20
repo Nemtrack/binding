@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'binding-routing';
+  onAddFirst(){
+    console.log("first added!");
+  }
+  onAddSecond(){
+    console.log("second added!");
+  }
 }
